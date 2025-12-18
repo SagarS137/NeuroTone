@@ -1,0 +1,10 @@
+fastapi 
+uvicorn 
+torch 
+transformers 
+peft 
+bitsandbytes 
+trl 
+datasets
+scipy
+python-multipart

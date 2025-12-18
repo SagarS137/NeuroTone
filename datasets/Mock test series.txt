@@ -1,0 +1,4 @@
+Mock test series
+IMS(simcat) best for varc dilr qa respectively
+cl best for varc, qa, meh for dilr
+time(aimcat) for qa
