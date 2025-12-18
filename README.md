@@ -1,6 +1,8 @@
 # Neurotune: The Model Surgeon 🧠
 
-**Neurotune** is an automated fine-tuning workbench designed to democratize LLM adaptation. It provides a visual interface for managing datasets, selecting base models (Llama 3, Mistral, Gemma, GPT-2), and monitoring training jobs with full reproducibility.
+**Neurotune** # NeuroTune 🧠
+
+NeuroTune is a full-stack application designed to streamline the fine-tuning and evaluation of AI models. It features a modern **Next.js frontend** for managing experiments and a **Python backend** for handling training logic and dataset processing. It provides a visual interface for managing datasets, selecting base models (Llama 3, Mistral, Gemma, GPT-2), and monitoring training jobs with full reproducibility.
 
 ## 🚧 Status: Active Development
 *Current Version: v0.1.0 (Frontend Architecture)*
