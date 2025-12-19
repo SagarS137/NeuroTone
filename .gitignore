@@ -48,6 +48,12 @@ ENV/
 env.bak/
 venv.bak/
 
+# Local Database
+jobs_db.json
+
+# Training Outputs & Logs
+outputs/
+
 # --- IDEs & Editors ---
 .vscode/
 .idea/

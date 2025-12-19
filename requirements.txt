@@ -8,3 +8,5 @@ trl
 datasets
 scipy
 python-multipart
+boto3
+python-dotenv

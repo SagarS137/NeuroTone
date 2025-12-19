@@ -1,6 +1,6 @@
 "use client"
 
-import { CreateJobModal } from "@/components/ui/dashboard/create-job-modal"
+// 1. REMOVED: import { CreateJobModal } ... 
 import Link from "next/link"
 import {
   Brain,
@@ -18,7 +18,6 @@ import { Button } from "@/components/ui/button"
 import {
   Card,
   CardContent,
-  CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
@@ -229,13 +228,20 @@ export default function Dashboard() {
           <div className="flex flex-1 items-center justify-center rounded-lg border border-dashed shadow-sm">
             <div className="flex flex-col items-center gap-1 text-center">
               <h3 className="text-2xl font-bold tracking-tight">
-                No Active Model
+                Ready to Fine-Tune?
               </h3>
               <p className="text-sm text-muted-foreground">
-                Select a model from the sidebar or start a new fine-tuning job.
+                Upload a dataset and launch a new training run on AWS.
               </p>
-              <div className="mt-4"><CreateJobModal />
+              
+              {/* --- 2. CHANGED: REPLACED MODAL WITH LINK --- */}
+              <div className="mt-4">
+                <Link href="/datasets">
+                   <Button size="lg">Start New Job</Button>
+                </Link>
               </div>
+              {/* --------------------------------------------- */}
+              
             </div>
           </div>
         </main>
